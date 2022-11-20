@@ -1,13 +1,13 @@
 # Authenticate to Azure Subscription
 # Connect-AzAccount -Environment AzureCloud -Subscription <subscription_guid>
-$location                 = 'westus2'
+$location                 = 'usgovvirginia'
 $tfbackend_rg_name        = 'tfstate'
-$tfbackend_sa_name        = 'jrybergdemo'
+$tfbackend_sa_name        = 'ulysestest'
 $tfbackend_container_name = 'tfstate'
 $tf_sp_name               = 'dev-az-tf-gh-sp'
-$ghUsername               = 'devopsjesus'
+$ghUsername               = 'ulysestest'
 $ghPAT                    = '' # Pass in your GitHub Personal Access Token with repo & org access premissions
-$ghOrgName                = 'jrybergDemo'
+$ghOrgName                = 'ulysestest'
 $ghRepoName               = 'az-tf-gh-bootcamp'
 $ghRepoEnvironmentName    = 'Azure-Public-Dev'
 
